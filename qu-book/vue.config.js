@@ -5,18 +5,18 @@ function resolve (dir) {
 
 //解决跨域
 module.exports={
-//     devServer:{
-//       port:3000,
-//       proxy:{
-//         '/api':{   //这里的/dev指的是自己设定的对接暗号
-//            target:'http://ustbhuangyi.com/music',//目标地址
-//            changeOrigin:true,
+    devServer:{
+      port:3000,
+      proxy:{
+        '/api':{   //这里的/dev指的是自己设定的对接暗号
+           target:'http://bookstoreapi.shuqireader.com',//目标地址
+           changeOrigin:true,
 //           //  pathRewrite:{
 //           //    '^/dev':''       //这里将/dev清除
 //           //  }
-//         }
-//       }
-//     },
+        }
+      }
+    },
 
     //起别名
     chainWebpack:(config)=>{
