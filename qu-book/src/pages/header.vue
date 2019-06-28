@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="header">
     <h1>头部</h1>
   </div>
 </template>
